@@ -1,0 +1,7 @@
+{
+  "name": "tasklist-tutorial",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
