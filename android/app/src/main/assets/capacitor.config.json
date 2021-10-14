@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "tasklist-tutorial",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
