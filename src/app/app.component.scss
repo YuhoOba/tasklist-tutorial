@@ -33,16 +33,6 @@ ion-menu.md ion-list#inbox-list ion-list-header {
   min-height: 20px;
 }
 
-ion-menu.md ion-list#labels-list ion-list-header {
-  font-size: 16px;
-
-  margin-bottom: 18px;
-
-  color: #757575;
-
-  min-height: 26px;
-}
-
 ion-menu.md ion-item {
   --padding-start: 10px;
   --padding-end: 10px;
@@ -93,10 +83,6 @@ ion-menu.ios ion-item ion-icon {
   color: #73849a;
 }
 
-ion-menu.ios ion-list#labels-list ion-list-header {
-  margin-bottom: 8px;
-}
-
 ion-menu.ios ion-list-header,
 ion-menu.ios ion-note {
   padding-left: 16px;
@@ -112,6 +98,10 @@ ion-note {
   font-size: 16px;
 
   color: var(--ion-color-medium-shade);
+
+  &.reference {
+    padding-top: 16px;
+  }
 }
 
 ion-item.selected {
